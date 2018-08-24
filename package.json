@@ -17,6 +17,16 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^2.0.0"
+    "@types/jasmine": "^2.8.8",
+    "electron": "^2.0.8",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.2",
+    "karma-typescript": "^3.0.13"
+  },
+  "dependencies": {
+    "jasmine-core": "^3.2.1",
+    "jasmine-ts": "^0.2.1",
+    "karma": "^3.0.0",
+    "karma-electron": "^6.0.0"
   }
 }
